@@ -1,2 +1,1 @@
-# waterEand.github.io
-Qiyuan Zhuang Personal Website
+# Qiyuan Zhuang Personal Website
