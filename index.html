@@ -1,11 +1,387 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Qiyuan Zhuang's Homepage</title>
-</head>
-<body>
-  <h1>Welcome to Qiyuan Zhuang's Homepage</h1>
-  <p>This is a simple GitHub Pages site.</p>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="Qiyuan Zhuang is a master’s student in Artificial Intelligence at Southeast University and Monash University, working on embodied AI, robot learning, generative policies, and affordance learning."
+    />
+    <title>Qiyuan Zhuang | Robot Learning</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css?v=17" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <nav aria-label="Main navigation">
+          <a href="#research">Publications</a
+          ><a href="#experience">Experience</a>
+        </nav>
+      </header>
+      <main id="main">
+        <section class="hero" id="about" aria-labelledby="hero-title">
+          <h1 id="hero-title">Qiyuan Zhuang</h1>
+          <figure class="profile-photo-block">
+            <div class="profile-photo-frame">
+              <img
+                class="profile-photo"
+                src="resource/profile.jpg"
+                alt="Qiyuan Zhuang holding a hand-drawn portrait of Tigger"
+                width="2592"
+                height="3017"
+              />
+            </div>
+            <figcaption>I LOVE Disneyland and winter</figcaption>
+          </figure>
+          <p class="intro">
+            I am a master’s student in Artificial Intelligence at
+            <a href="https://www.seu.edu.cn/">Southeast University</a>, advised
+            by <a href="http://www.weixiushen.com/">Prof. Xiu-Shen Wei</a>. I am
+            also pursuing an M.S. in Artificial Intelligence at
+            <a href="https://www.monash.edu/">Monash University</a> through a
+            joint master’s program. Previously, I received my B.S. in
+            Mathematics and Applied Mathematics from
+            <a href="https://www.lzu.edu.cn/">Lanzhou University</a> in 2024,
+            advised by
+            <a
+              href="https://mathteacher.lzu.edu.cn/system/TeacherProfileqt/content2.jsp?id=201"
+              >Prof. Peng Li</a
+            >. I had a wonderful time as a visiting student at
+            <a href="https://www.ucsb.edu/">UC Santa Barbara</a> during the
+            spring quarter of 2023.
+          </p>
+          <p class="intro intro-wide">
+            I am currently a VLA research intern at the
+            <a href="https://www.x-humanoid.com/"
+              >Beijing Innovation Center of Humanoid Robotics</a
+            >.
+          </p>
+          <p class="intro intro-wide">
+            My research focuses on
+            <span class="research-accent">embodied intelligence</span>, seeking
+            <span class="research-accent"
+              >elegant methods for generalizable robotic manipulation</span
+            >. My work spans vision-language-action models, world-action models,
+            visuomotor policies, and affordance learning. I am particularly
+            interested in representation learning for embodied AI.
+          </p>
+          <div class="profile-links" aria-label="Profile links">
+            <a href="mailto:qiyuan@seu.edu.cn"
+              ><svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M3 5.5h18v13H3z" />
+                <path d="m4 7 8 6 8-6" /></svg
+              >qiyuan@seu.edu.cn</a
+            >
+            <a href="https://scholar.google.com/citations?user=DanPR3EAAAAJ"
+              ><svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="m2.5 9 9.5-5 9.5 5-9.5 5z" />
+                <path d="M6.5 11.2v5.1c3.5 2.4 7.5 2.4 11 0v-5.1" /></svg
+              >Google Scholar</a
+            >
+            <a href="https://github.com/waterEand"
+              ><svg aria-hidden="true" viewBox="0 0 24 24">
+                <path
+                  d="M12 2.8a9.2 9.2 0 0 0-2.9 17.9c.5.1.6-.2.6-.4v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 0 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 2.9.9.1-.7.4-1.1.7-1.4-2.2-.3-4.6-1.1-4.6-4.9 0-1.1.4-2 1.1-2.7-.1-.3-.5-1.3.1-2.7 0 0 .9-.3 2.9 1.1a10 10 0 0 1 5.3 0c2-1.4 2.9-1.1 2.9-1.1.6 1.4.2 2.4.1 2.7.7.7 1.1 1.6 1.1 2.7 0 3.8-2.4 4.6-4.6 4.9.4.3.7.9.7 1.8v2.6c0 .3.2.5.7.4A9.2 9.2 0 0 0 12 2.8Z"
+                /></svg
+              >GitHub</a
+            >
+            <a href="https://www.linkedin.com/in/qiyuan-z/"
+              ><svg aria-hidden="true" viewBox="0 0 24 24">
+                <path
+                  d="M20.5 3h-17A1.5 1.5 0 0 0 2 4.5v15A1.5 1.5 0 0 0 3.5 21h17a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 20.5 3ZM8 18H5V9h3v9ZM6.5 7.7A1.75 1.75 0 1 1 6.5 4.2a1.75 1.75 0 0 1 0 3.5ZM19 18h-3v-4.4c0-1.1 0-2.4-1.5-2.4s-1.7 1.1-1.7 2.3V18h-3V9h2.9v1.2c.4-.8 1.4-1.5 2.8-1.5 3 0 3.5 2 3.5 4.5V18Z"
+                /></svg
+              >LinkedIn</a
+            >
+          </div>
+        </section>
+        <section
+          class="content-section"
+          id="research"
+          aria-labelledby="research-title"
+        >
+          <header class="section-heading">
+            <div>
+              <h2 id="research-title">Publications</h2>
+            </div>
+          </header>
+          <article class="paper featured-paper">
+            <figure class="paper-figure has-image">
+              <img
+                src="resource/papers/raap.png"
+                alt="Overview of the RAAP retrieval-augmented affordance prediction pipeline"
+                width="2008"
+                height="674"
+              />
+            </figure>
+            <div class="paper-body">
+              <div class="paper-meta">
+                <span class="venue">ICRA 2026</span>
+              </div>
+              <h3>
+                <a href="https://arxiv.org/abs/2603.29419"
+                  >RAAP: Retrieval-Augmented Affordance Prediction with
+                  Cross-Image Action Alignment</a
+                >
+              </h3>
+              <p class="authors">
+                <strong>Qiyuan Zhuang</strong>, H.-Y. Xu, Y. Wang, X.-Y. Zhao,
+                Y.-Y. Li, X.-S. Wei
+              </p>
+              <div class="paper-bottom">
+                <div class="paper-links">
+                  <a href="https://arxiv.org/abs/2603.29419">[paper]</a
+                  ><a href="https://mp.weixin.qq.com/s/FfLKO0lUmMwVQ9_BS4fn2w"
+                    >[机器之心]</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="paper featured-paper">
+            <figure class="paper-figure has-image">
+              <img
+                src="resource/papers/leap.png"
+                alt="Comparison of vanilla, deterministic-source, and LeaP generative robot policies"
+                width="1616"
+                height="756"
+              />
+            </figure>
+            <div class="paper-body">
+              <div class="paper-meta">
+                <span class="venue">CoRL 2026</span>
+              </div>
+              <h3>
+                <a href="https://arxiv.org/abs/2606.17408"
+                  >Where Should Action Generation Begin? A Learnable Source
+                  Prior for Generative Robot Policies</a
+                >
+              </h3>
+              <p class="authors">
+                M. Dai*, <strong>Qiyuan Zhuang*</strong>, H.-Y. Xu*, Y.-J.
+                Shuai, Y. Wang, Q. Dou, X.-S. Wei
+              </p>
+              <div class="paper-bottom">
+                <div class="paper-links">
+                  <a href="https://arxiv.org/abs/2606.17408">[paper]</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="paper compact-paper">
+            <figure class="paper-figure has-image">
+              <img
+                src="resource/papers/coarse-labels.png"
+                alt="Overview of coarse-grained self-distillation, dense supervision, and class-wise adaptive contrastive learning"
+                width="1740"
+                height="970"
+                loading="lazy"
+              />
+            </figure>
+            <div class="paper-body">
+              <div class="paper-meta">
+                <span class="venue">IEEE TIP 2026</span>
+              </div>
+              <h3>
+                <a href="https://ieeexplore.ieee.org/document/11538384"
+                  >Coarse Labels Matter: Revisiting the Role of Coarse-Grained
+                  Supervision in Fine-Grained Learning</a
+                >
+              </h3>
+              <p class="authors">
+                X.-Y. Zhao, P. Zhang, <strong>Qiyuan Zhuang</strong>, Y. Yao,
+                X.-S. Wei
+              </p>
+              <div class="paper-links">
+                <a href="https://ieeexplore.ieee.org/document/11538384"
+                  >[paper]</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="paper compact-paper">
+            <figure class="paper-figure has-image">
+              <img
+                src="resource/papers/quantum-prompt.png"
+                alt="Comparison of visual prompt tuning and quantum-inspired visual prompt tuning with Givens rotations"
+                width="1996"
+                height="890"
+                loading="lazy"
+              />
+            </figure>
+            <div class="paper-body">
+              <div class="paper-meta">
+                <span class="venue">SCIENTIA SINICA Informationis · 2026</span>
+              </div>
+              <h3>
+                A Quantum-Inspired Visual Prompt Tuning Method Based on Givens
+                Rotation
+              </h3>
+              <p class="authors">
+                Y. Wang, <strong>Qiyuan Zhuang</strong>, C. Wen, Y. Zhang, X.
+                Qiang, X.-S. Wei
+              </p>
+            </div>
+          </article>
+          <article class="paper">
+            <figure class="paper-figure has-image">
+              <img
+                src="resource/papers/temporal-uncertainty.png"
+                alt="Comparison of probabilistic forecasting intervals produced by Koopa, PatchTST, K-squared VAE, and VolDy-VAE"
+                width="1828"
+                height="1160"
+                loading="lazy"
+              />
+            </figure>
+            <div class="paper-body">
+              <div class="paper-meta">
+                <span class="venue">AAAI 2027 · Under Review</span>
+              </div>
+              <h3>
+                <a href="https://arxiv.org/abs/2603.24254"
+                  >Beyond Static Uncertainty: Modeling Temporal Uncertainty
+                  Dynamics for Probabilistic Time Series Forecasting</a
+                >
+              </h3>
+              <p class="authors">
+                Y. Wang, <strong>Qiyuan Zhuang</strong>, L. Marchanka, X.-S. Wei
+              </p>
+              <div class="paper-links">
+                <a href="https://arxiv.org/abs/2603.24254">[paper]</a>
+              </div>
+            </div>
+          </article>
+          <article class="paper">
+            <figure class="paper-figure has-image">
+              <img
+                src="resource/papers/thesis.png"
+                alt="Sparse-graph code construction before and after removing zero-valued variable nodes"
+                width="2412"
+                height="790"
+                loading="lazy"
+              />
+            </figure>
+            <div class="paper-body">
+              <div class="paper-meta">
+                <span class="venue">Undergraduate Thesis · 2024</span>
+              </div>
+              <h3>
+                <a href="https://github.com/waterEand/thesis_lzu"
+                  >Outliers Removal Based on Sparse-Graph Codes</a
+                >
+              </h3>
+              <p class="authors"><strong>Qiyuan Zhuang</strong></p>
+              <div class="paper-links">
+                <a href="https://github.com/waterEand/thesis_lzu"
+                  >[paper &amp; code]</a
+                >
+              </div>
+            </div>
+          </article>
+        </section>
+        <section
+          class="content-section"
+          id="experience"
+          aria-labelledby="experience-title"
+        >
+          <header class="section-heading">
+            <div>
+              <h2 id="experience-title">Experience</h2>
+            </div>
+          </header>
+          <article class="experience-item">
+            <div class="entry-date">
+              Jul. 2026 — Present<span>Beijing, China</span>
+            </div>
+            <div class="entry-body">
+              <h3>
+                <a href="https://www.x-humanoid.com/"
+                  >Beijing Innovation Center of Humanoid Robotics</a
+                >
+              </h3>
+              <p class="entry-role">X-Humanoid · VLA Research Intern</p>
+              <p class="mentors">
+                Mentors: <a href="https://nuomizai.github.io/">Yinuo Zhao</a>,
+                <a href="https://scholar.google.com/citations?user=OFOJM5MAAAAJ"
+                  >Ning Liu</a
+                >
+              </p>
+            </div>
+          </article>
+          <article class="experience-item">
+            <div class="entry-date">
+              Jul. — Sep. 2024<span>Suzhou, China</span>
+            </div>
+            <div class="entry-body">
+              <h3><a href="https://www.unix-group.ai/">UniX AI</a></h3>
+              <p class="entry-role">Embodied AI Algorithm Intern</p>
+              <p class="mentors">
+                Mentor:
+                <a href="https://www.linkedin.com/in/wenlong-cheng-71090057/"
+                  >Wenlong Cheng</a
+                >
+              </p>
+            </div>
+          </article>
+        </section>
+        <section
+          class="content-section more-section"
+          id="more"
+          aria-labelledby="more-title"
+        >
+          <header class="section-heading">
+            <div>
+              <h2 id="more-title">Honors &amp; Service</h2>
+            </div>
+          </header>
+          <div class="more-row">
+            <h3>Honors</h3>
+            <div>
+              <div class="award">
+                <span>2025</span>
+                <div>
+                  <h4>Gold Award, Autonomous Pac-Man Competition</h4>
+                  <p>Monash University · Top 0.3% university-wide</p>
+                  <div class="paper-links">
+                    <a href="resource/FIT5047.pdf">[certificate]</a
+                    ><a href="resource/pacman_report.pdf">[report]</a>
+                  </div>
+                </div>
+              </div>
+              <div class="award">
+                <span>2024</span>
+                <div>
+                  <h4>Outstanding Undergraduate Thesis, Lanzhou University</h4>
+                  <div class="paper-links">
+                    <a href="https://github.com/waterEand/thesis_lzu"
+                      >[paper &amp; code]</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="more-row">
+            <h3>Academic Service</h3>
+            <div>
+              <p>Reviewer</p>
+              <p class="service-list">
+                IEEE TPAMI · IEEE TIP<br />AAAI 2027 · NeurIPS 2026 · CVPR 2026
+                · ECCV 2026
+              </p>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <div>
+            <span class="eyebrow">LET’S CONNECT</span
+            ><span class="footer-email">WeChat: H01121029Z</span>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </body>
 </html>
