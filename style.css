@@ -101,7 +101,8 @@ nav {
 .hero > .intro-wide {
   grid-column: 1 / -1;
 }
-.hero > .intro:not(.intro-wide) {
+.hero > .intro:not(.intro-wide),
+.hero > .intro-justify {
   text-align: justify;
   text-justify: inter-word;
 }
