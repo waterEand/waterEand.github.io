@@ -410,40 +410,8 @@ h2 span {
   font-size: 0.8125rem;
   color: var(--muted);
 }
-.more-row {
-  display: grid;
-  grid-template-columns: 170px minmax(0, 1fr);
-  gap: 24px;
-  margin-top: 23px;
-}
-.more-row > h3 {
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--heading);
-}
-.award {
-  display: grid;
-  grid-template-columns: 42px 1fr;
-  gap: 14px;
-  margin-bottom: 15px;
-}
-.award > span {
-  font-size: 0.8125rem;
-  color: var(--muted);
-}
-.award h4 {
-  font-size: 1rem;
-  font-weight: 500;
-}
-.award p {
-  color: var(--muted);
-  font-size: 0.875rem;
-  margin-top: 3px;
-}
 .service-list {
-  color: #69665e;
   font-size: 0.9375rem;
-  margin-top: 5px;
 }
 .skill-groups p {
   font-size: 0.9375rem;
@@ -510,8 +478,7 @@ footer > div:first-child {
     gap: 19px;
   }
   .experience-item,
-  .education-item,
-  .more-row {
+  .education-item {
     grid-template-columns: 1fr;
     gap: 6px;
   }
